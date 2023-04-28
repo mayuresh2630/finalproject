@@ -39,7 +39,12 @@ const Matrix = () => {
     } catch (error) {}
   }
   return (
+
+    
     <div className="calender">
+      <div>
+        <h2>SKILL MATRIX</h2>
+      </div>
       <div className="d-flex">
         <div>
           <p>from date</p>
@@ -78,7 +83,7 @@ const Matrix = () => {
         {generated ? "Generated" : "Generate"}
       </button>
       {generated && generatedData ? (
-        <MatrixTable tableData={generatedData} />
+        <MatrixTable tableData={generatedData}setGeneratedData={setGeneratedData}/>
       ) : null}
     </div>
   );

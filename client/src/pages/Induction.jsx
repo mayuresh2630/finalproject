@@ -100,7 +100,8 @@ const images= {
   AISG:"/images/aisg.png",
   ENTERPRISE:"/images/enterprise.png",
   RF:"/images/rf.png",
-  OFC:"/images/ofc.png"
+  OFC:"/images/ofc.png",
+  AUTOMOTIVE:"/images/automotive.jpg"
 
 
 }

@@ -19,7 +19,7 @@ export default function DisplayTable({ tableData, title }) {
         >
           <div className="img">
             <img
-              style={{ maxWidth: "80%", marginLeft: "100px" }}
+              style={{ maxWidth: "80%", marginLeft: "100px", }}
               src={title ? title : process.env.PUBLIC_URL + "/images/heads.png"}
             />
           </div>
@@ -55,9 +55,11 @@ export default function DisplayTable({ tableData, title }) {
                 </tr>
               ))}
           </table>
+          
         </Typography>
+        <br/>
+        <div>RFB00960/05.19/V1.2</div>
       </Container>
-
       {/* <PdfComponent /> */}
     </div>
   );

@@ -161,6 +161,20 @@ const Training = () => {
         <Meta title=" OFC CERTIFICATE" />
       </Card>
       </Col>
+      <Col span={5}>
+      <Card
+       onClick={(e)=>induction(e,"AUTOMOTIVE")}
+        hoverable
+        style={{
+          width: 240,
+          marginLeft: "40px",
+          marginTop: "20px",
+        }}
+        cover={<img src={process.env.PUBLIC_URL + "/images/induction.jpg"} />}
+      >
+        <Meta title=" AUTOMOTIVE CERTIFICATE" />
+      </Card>
+      </Col>
       </Row>
 
     </div>

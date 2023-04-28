@@ -14,6 +14,7 @@ import Induction from "./pages/Induction";
 
 
 import Matrix from "./pages/Matrix";
+import MatrixTable from "./pages/MatrixTable";
 
 
 const App = () => {
@@ -51,7 +52,7 @@ const App = () => {
               <Route path=":dept" element={<Layout><Induction/></Layout>}/>
             </Route>
             <Route path="Dataentry" element={<Layout><Dataentry /> </Layout>} />
-            <Route path="Validation" element={<Layout><Validation /></Layout>} />
+            <Route path="Validation" element={<Layout><Matrix /></Layout>} />
             <Route path="View" element={<Layout><View /></Layout>} />
           </Route>
         </Routes>
